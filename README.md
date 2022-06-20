@@ -22,10 +22,10 @@ The command to run the java class is as follows
 
 A file is required to be pipe through to the java class via the commandline
 
-###Test data
+### Test data
 Within the folder there are 6 text files containing words with known Syllable counts according to the name of the text file.
 
-###Test Results
+### Test Results
 The program works fairly well counting about 90% of words syllables correctly and when misscountd only tends to be off by one.
 Refer to "Test-Results" file to see results.
 
