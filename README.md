@@ -1,4 +1,4 @@
-# Syllable-counter
+# Syllable-Counter
 This java class reads the number of syllables in a given word
 It uses a regular expression pattern which can detect if a vowel is present in the string.
 It uses 3 rules to achieve this...
