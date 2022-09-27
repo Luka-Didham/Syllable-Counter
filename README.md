@@ -1,10 +1,11 @@
 # Syllable-Counter
-This java class reads the number of syllables in a given word
-It uses a regular expression pattern which can detect if a vowel is present in the string.
+#### @author Luka-Didham
+
+### Overview
+This program reads the number of syllables in a given word and uses a regular expression pattern which can detect if a vowel is present in the string.
 It uses 3 rules to achieve this...
 
-1. Count the number of vowels (A, E, I, O, U) in the word plus Y for each time it makes the sound of a vowel.
-We assume all vowels together are Diphthongs or Triphthong so count these multiple vowels as syllables.
+1. Count the number of vowels (A, E, I, O, U) in the word, including Y for each time it makes the sound of a vowel. We assume all vowels together are Diphthongs or Triphthong so count these multiple vowels as syllables.
 2. Substract one syllable count for each silent "e".
 3. If word ends in "le" or "les" add 1 count only if the letter before the "le/les" is a consonant.
 *Note Rule 2/3 only apply to words >2 characters
